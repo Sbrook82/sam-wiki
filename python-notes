@@ -1,0 +1,46 @@
+# Fundamentals
+introductory concepts
+python is an interpreted language: programs are executed by an interpreter
+2 ways to use interpreter:
+command-line mode
+when you type python programs and the interpreter prints the results
+script mode: a #script is a program stored in a file
+when you write a program in a file and use the interpreter to execute the contents of that file
+	that file is called a #script and files that contain python programs are .py files
+important distinctions
+function definition vs function call
+Function definitions begin with the keyword def, so I simply tell my students, “When you define a function, begin with def, followed by the name of the function that you are defining; when you call a function, simply call (type) out its name.” 
+#parameter vs #arguments
+#parameters go with definitions
+#arguments go with calls
+debugging
+syntax errors: an error in the syntax of a program that makes it impossible to parse
+#syntax is the structure of a program
+runtime errors: errors that don't appear until you run the program
+AKA 'exceptions'
+semantic errors: when the program can be executed, but does not do what you want it to
+Variables, expressions, statements
+values and types (intergers, strings)
+types
+str anything inside single quotation marks
+int
+float (numbers with a decimal point)
+variables a variable is a name that refers to a value
+variables must begin with a letter not a numeral
+the assignment statement creates new variables and gives them values
+ex.) >>> message = "What’s up, Doc?" 
+>>> n = 17 >>> pi = 3.14159
+statements: a statement is an instruction that the python interpreter can execute. a #script is a sequence of statements
+the result of a print statement is a value
+assignment statements don't produce a result
+expressions: combination of values, variables, and operators
+Operators & Operands
+interger division: when both of the operands are intergers, the result must also be an interger
+floating-point division
+Mode
+Including a mode argument is optional because a default value of ‘r’ will be assumed if it is omitted. The ‘r’ value stands for read mode, which is just one of many.
+The modes are:
+‘r’ – Read mode which is used when the file is only being read
+‘w’ – Write mode which is used to edit and write new information to the file (any existing files with the same name will be erased when this mode is activated)
+‘a’ – Appending mode, which is used to add new data to the end of the file; that is new information is automatically amended to the end
+‘r+’ – Special read and write mode, which is used to handle both actions when working with a file
